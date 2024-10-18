@@ -1,0 +1,246 @@
+.projects {
+    padding: 20vh 10vw;
+    height: auto;
+    background: white;
+}
+
+.projects h1 {
+    color: #4831d4;
+    margin-bottom: 10px;
+    font-size: 2.2vw;
+}
+
+.project-containers {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-container {
+    display: flex;
+    margin: 60px 0;
+    gap: 2vw;
+    justify-content: space-between;
+}
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.view-text {
+    text-align: end;
+    color: #623982;
+    font-size: 1vw;
+}
+
+.project-container img {
+    /* width: 25vw; */
+    width: 35%;
+    height: auto;
+    box-shadow: 20px 20px 20px #00000051;
+}
+
+.project-container-info h2 {
+    font-size: 1.4vw;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.project-container-info {
+    width: 50%;
+}
+
+.project-container-info p {
+    color: #623982;
+    font-size: 1.3vw;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.project-container-info h2:nth-child(2), .project-container-info h2:nth-child(3) {
+    color: #505050;
+    margin-top: 5px;
+    font-weight: 800;
+    font-size: 1.3vw;
+    margin-bottom: 20px;
+}
+
+.project-container-info-wrap {
+    display: flex;
+    gap: 1vw;
+    align-items: end;
+}
+
+.project-container-info-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.project-container-info-image img {
+    width: 4.5vw;
+    height: auto;
+    box-shadow: 0px 0px 0px #00000095;
+}
+
+.project-container-info-image p {
+    text-align: center;
+}
+
+.viewmore-button {
+    display: none;
+    background-color: transparent;
+    padding: 20px 0px;
+    /* max-width: 400px; */
+    width: 23vw;
+    max-height: 150px;
+    letter-spacing: 1px;
+    font-size: 2vw;
+    font-weight: 800;
+    color: #4831d4;
+    border: 0.7vw solid;
+    align-self: center;
+    margin-top: 4vh;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project-container-info-image:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.viewmore-button:hover {
+    transform: translateY(-1rem);
+    box-shadow: 20px 20px 20px #00000051;
+}
+
+@media(max-width: 992px) {
+    .projects h1  {
+        font-size: 3vw;
+    }
+
+    .project-container {
+        flex-direction: column;
+    }
+    
+    .project-container img {
+        width: 50%;
+        box-shadow: 10px 10px 10px #00000051;
+    }
+    
+    .project-container-info {
+        width: 100%;
+    }
+
+    .project-container-info-image img {
+        width: 4.5vw;
+        box-shadow: 0px 0px 0px #00000051;
+    }
+
+    .project-container-info h2 {
+        font-size: 2.1vw;
+    }
+
+    .project-container-info p {
+        font-size: 2vw;
+    }
+
+    .project-container-info h2:nth-child(2) {
+        font-size: 2vw;
+        margin: 0px;
+        color: #505050;
+        margin-top: 5px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    .project-container-info h2:nth-child(3) {
+        font-size: 2vw;
+    }
+    
+
+    .project-container {
+        display: flex;
+    }
+
+    .view-text {
+        width: 100%;
+        text-align: end;
+        font-size: 2vw;
+    }
+}
+
+@media(max-width: 768px) {
+    .projects h1  {
+        font-size: 5vw;
+    }
+    
+    .project-container img {
+        width: 60%;
+        box-shadow: 10px 10px 10px #00000051;
+    }
+    
+    .project-container-info-image img {
+        width: 6.5vw;
+        box-shadow: 0px 0px 0px #00000051;
+    }
+
+    .project-container-info h2 {
+        font-size: 2.8vw;
+    }
+
+    .project-container-info p {
+        font-size: 2.7vw;
+    }
+    
+    .project-container-info h2:nth-child(2) {
+        font-size: 2.7vw;
+    }
+
+    .project-container-info h2:nth-child(3) {
+        font-size: 2.7vw;
+    }
+
+    .view-text {
+        font-size: 2.7vw;
+    }
+}
+
+@media(max-width: 580px) {
+    .projects h1  {
+        font-size: 5.5vw;
+    }
+    
+    .project-container img {
+        width: 60%;
+        box-shadow: 10px 10px 10px #00000051;
+    }
+    
+    .project-container-info-image img {
+        width: 8.5vw;
+        box-shadow: 0px 0px 0px #00000051;
+    }
+
+    .project-container-info h2 {
+        font-size: 3.3vw;
+    }
+
+    .project-container-info p {
+        font-size: 3.2vw;
+    }
+    
+    .project-container-info h2:nth-child(2) {
+        font-size: 3.2vw;
+    }
+
+    .project-container-info h2:nth-child(3) {
+        font-size: 3.2vw;
+    }
+
+    .view-text {
+        font-size: 3.2vw;
+    }
+}

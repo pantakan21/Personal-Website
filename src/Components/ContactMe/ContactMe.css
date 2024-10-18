@@ -1,0 +1,248 @@
+.contact {
+    height: auto;
+    padding: 15vh 10vw;
+    background: #4831d4;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.contact h1 {
+    font-size: 5vw;
+    color: #ccf381;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+.contact-container {
+    display: flex;
+    gap: 2vw;
+}
+
+.contact-left {
+    width: 55%;
+}
+
+.contact-left h1 {
+    font-size: 4.3vw;
+    text-align: start;
+    letter-spacing: 0px;
+    font-weight: 600;
+}
+
+.contact-left p {
+    color: white;
+    font-size: 1.3vw;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.contact-info {
+    margin: 1.5vh 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info img {
+    width: 2vw;
+    height: auto;
+    margin-right: 1vw;
+}
+
+.contact-right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-right label {
+    color: white;
+    font-size: 1.1vw;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.contact-right input {
+    border: none;
+    width: 35vw;
+    height: auto;
+    padding: 1vw 1vw;  
+    border-radius: 5px;
+    color: black;
+    font-family: Outfit;
+    font-size: 0.9vw;
+    margin-bottom: 1.3vw;
+}
+
+.contact-right textarea {
+    border: none;
+    width: 35vw;
+    padding: 1vw 1vw;
+    border-radius: 5px;
+    color: black;
+    font-family: Outfit;
+    font-size: 0.95vw;
+}
+
+.contact-submit {
+    border: 0.5vw solid white;
+    color: white;
+    background-color: transparent;
+    margin-top: 4.5vw;
+    padding: 1vw 2vw;
+    max-width: 19vw;
+    height: auto;
+    letter-spacing: 1px;
+    font-size: 2vw;
+    font-weight: 600;
+    border-radius: 55px;
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 50%, #000000 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out, color .5s ease-out;
+}
+
+.contact-submit:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+    background-position: left;
+}
+
+@media(max-width: 992px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    .contact h1 {
+        font-size: 6vw;
+    }
+
+    .contact-left {
+        width: 80%;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
+
+    .contact-left h1 {
+        font-size: 5.5vw;
+    }
+    
+    .contact-left p {
+        font-size: 2.2vw;
+    }
+    
+    .contact-info img {
+        width: 3vw;
+        height: auto;
+        margin-right: 1vw;
+    }
+    
+    .contact-right label {
+        font-size: 2vw;
+    }
+
+    .contact-right input {
+        width: 45vw;
+        padding: 1vw 1vw;  
+        border-radius: 5px;
+        font-size: 1.8vw;
+    }
+    
+    .contact-right textarea {
+        width: 45vw;
+        font-size: 1.8vw;
+    }
+
+    .contact-submit {
+        padding: 2vw 2vw;
+        max-width: 22vw;
+        font-size: 2.3vw;
+    }
+}
+
+@media(max-width: 768px) {
+    .contact {
+        gap: 80px;
+    }
+
+    .contact h1 {
+        font-size: 6vw;
+    }
+
+    .contact-left {
+        width: 85%;
+    }
+
+    .contact-left h1 {
+        font-size: 5.5vw;
+    }
+    
+    .contact-left p {
+        font-size: 2.5vw;
+    }
+ 
+    .contact-right label {
+        font-size: 2.3vw;
+    }
+
+    .contact-right input {
+        width: 55vw;
+        font-size: 2.1vw;
+    }
+    
+    .contact-right textarea {
+        width: 55vw;
+        font-size: 2.1vw;
+    }
+}
+
+@media(max-width: 580px) {
+    .contact {
+        gap: 100px;
+    }
+
+    .contact-container {
+        display: flex;
+        gap: 8vw;
+    }
+
+    .contact h1 {
+        font-size: 11vw;
+    }
+
+    .contact-left {
+        width: 95%;
+    }
+
+    .contact-left h1 {
+        font-size: 6.5vw;
+    }
+    
+    .contact-left p {
+        font-size: 2.9vw;
+    }
+ 
+    .contact-right label {
+        font-size: 2.7vw;
+    }
+
+    .contact-right input {
+        width: 100%;
+        font-size: 2.5vw;
+    }
+    
+    .contact-right textarea {
+        width: 100%;
+        font-size: 2.5vw;
+    }
+
+    .contact-submit {
+        padding: 2.5vw 2vw;
+        max-width: 24vw;
+        font-size: 2.5vw;
+    }
+}

@@ -1,0 +1,178 @@
+/* vw, vh = Responsive */
+/* สรุปคือเอา vw มาใช้แล้วใช้ height = auto */
+.header {
+    display: flex;
+    height: auto;
+    padding: 21vh 10vw;
+    background: linear-gradient(90deg, #4831d4 67%, #ccf381 33%);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-mobile {
+    display: none;
+}
+
+.header-left {
+    width: 65%;
+    animation: fadeIn 2s;
+}
+
+.header-left h1 {
+    font-size: 4.4vw;
+    color: #ccf381;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+}
+
+.header-left p {
+    margin-top: 2vh;
+    font-size: 1.3vw;
+    color: white;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+.header-contact {
+    margin-top: 25px;
+    background-color: white;
+    padding: 1vw 2vw;
+    max-width: 555px;
+    border: none;
+    height: auto;
+    letter-spacing: -1px;
+    font-size: 2vw;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-right {
+    width: 35%;
+    display: flex;
+    justify-content: end;
+    margin-right: 10vw;
+}
+
+.header-right img {
+    height: auto; 
+    width: 20vw;
+    /* height: calc(100% + 15px);  */
+    margin-top: -3.435em;
+    margin-left: 10.2em;
+    object-fit: cover; 
+    background-color: #fff;
+    background-size: cover;
+    border-radius: 30px;
+    background-position-x: center;
+    box-shadow: 40px 40px 80px #00000095;
+    transition: 0.3s;
+    animation: fadeIn 2s;
+} 
+
+.header-contact:hover {
+    box-shadow: 20px 20px 40px #00000095;
+}
+
+.header-contact:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.header-right img:hover {
+    box-shadow: 80px 80px 120px #00000095;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+@media(max-width: 992px) {
+    .header-left h1 {
+        font-size: 4.9vw;
+    }
+    
+    .header-left p {
+        font-size: 1.8vw;
+    }
+    
+    .header-contact {
+        font-size: 3vw;
+    }
+}
+
+@media(max-width: 768px) {
+    .header-left h1 {
+        font-size: 4.9vw;
+    }
+    
+    .header-left p {
+        font-size: 1.8vw;
+    }
+    
+    .header-contact {
+        font-size: 3vw;
+    }
+
+    .header-right img {
+        width: 23vw;
+    } 
+}
+
+@media(max-width: 580px) {
+    .header {
+        padding: 0px 0px;
+    }
+    
+    .header-mobile {
+        display: block;
+        height: auto;
+        padding: 0px 0px;
+        background: #4831d4;
+    }
+
+    .header-mobile-info {
+        height: 65%;
+        padding: 120px 70px;
+        background: #4831d4;
+        animation: fadeIn 2s;
+    }
+
+
+    .header-mobile-info h1 {
+        font-size: 46.4px;
+        color: #ccf381;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: -0.03em;
+    }
+    
+    .header-mobile-info p {
+        font-size: 14.5px;
+        margin-top: 2vh;
+        color: white;
+        line-height: 1.4;
+        letter-spacing: 1px;
+    }
+
+    .header-mobile-image {
+        height: 45%;
+        padding: 20px 50px;
+        background: #ccf381;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-mobile-image img {
+        width: 186px;
+        height: auto;
+        animation: fadeIn 2s;
+    }
+
+    .header-left { 
+        display: none;
+    }
+
+    .header-right {
+        display: none;
+    }
+}

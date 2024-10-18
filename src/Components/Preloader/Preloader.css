@@ -1,0 +1,13 @@
+.preloader-container {
+    position: fixed; /* ให้ preloader อยู่บนสุดของหน้าจอ */
+    top: 50%; /* จัดแนวตั้งให้กลางจอ */
+    left: 50%; /* จัดแนวนอนให้กลางจอ */
+    transform: translate(-50%, -50%); /* ทำให้ตำแหน่งขยับไปกึ่งกลางจาก 50% ของหน้าจอ */
+    z-index: 9999; /* ให้แน่ใจว่า preloader อยู่ด้านบนสุดของทุกอย่าง */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff; /* เพิ่มสีพื้นหลังถ้าต้องการ */
+}
