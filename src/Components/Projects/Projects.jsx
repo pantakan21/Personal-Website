@@ -35,8 +35,30 @@ const Projects = () => {
                         </div>
                     </div>
                     <AnchorLink className="anchor-link" href="#header">
-                        <p className="view-text">View project</p>
+                        <p className="view-text hover">View project</p>
                     </AnchorLink>
+                </div>
+                <hr />
+                <div className="project-container">
+                    <img src={assets.GameForAutism} alt="" />
+                    <div className="project-container-info">
+                        <h2>Game for Autism Children</h2>
+                        <p>University project in collaboration with the Prachinburi Early Childhood Development Center, developing a simple Android puzzle game to enhance the cognitive development of autistic children through engaging gameplay</p>
+                        <h2>Technologies used</h2>
+                        <div className="project-container-info-wrap">
+                            <div className="project-container-info-image">
+                                <img src={assets.CSharp} alt="" />
+                                <p>C#</p>
+                            </div>
+                            <div className="project-container-info-image">
+                                <img src={assets.Unity} alt="" />
+                                <p>Unity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a className="anchor-link" href= "https://play.google.com/store/apps/details?id=com.kmutnb.gamefordevelopmentautismchildren&pli=1" target="_blank" >
+                        <p className="view-text hover">View project</p>
+                    </a>
                 </div>
                 <hr />
                 <div className="project-container">

@@ -16,6 +16,9 @@ import Mail_icon from "./Mail_icon.svg";
 import Call_icon from "./Call_icon.svg";
 import PreloaderRoll from "./PreloaderRoll.svg";
 import Incomming from "./Incomming.png";
+import GameForAutism from "./GameForAutism.png";
+import CSharp from "./CSharp.png";
+import Unity from "./Unity.png";
 
 export const assets = {
     Bootstrap,
@@ -35,5 +38,8 @@ export const assets = {
     Mail_icon,
     Call_icon,
     PreloaderRoll,
-    Incomming
+    Incomming,
+    GameForAutism,
+    CSharp,
+    Unity
 };
