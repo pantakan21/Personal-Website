@@ -29,6 +29,10 @@ const Skills = () => {
                         <img src={assets.ReactImage} alt="" />
                         <p>React</p>
                     </div> 
+                    <div className="images-container">
+                        <img src={assets.TypeScript} alt="" />
+                        <p>TypeScript</p>
+                    </div> 
                 </div>
             </div>
             <div className="backend-container">
@@ -41,6 +45,10 @@ const Skills = () => {
                     <div className="images-container">
                         <img src={assets.MySQL} alt="" />
                         <p>MySQL</p>
+                    </div>
+                    <div className="images-container">
+                        <img src={assets.Nodejs} alt="" />
+                        <p>Node.js</p>
                     </div>
                 </div> 
             </div>

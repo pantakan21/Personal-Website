@@ -8,9 +8,9 @@ const Header = () => {
         <>
             <div id = "header" className="header">
                 <div className="header-left">
-                    <h1>Frontend</h1>
+                    <h1>Full Stack</h1>
                     <h1>Developer.</h1>
-                    <p>Hi, I'm Pantakan Rungwannarat I love turning ideas into interactive digital experiences and I'm always eager to learn and grow through new challenges.</p>
+                    <p>Hi, I'm Pantakan Rungwannarat, a Fullstack Developer skilled in both frontend and backend development. I enjoy creating responsive, efficient web applications that bring ideas to life as seamless digital experiences.</p>
                     <AnchorLink className="anchor-link" href="#contact" offset={-120}>
                         <button className="header-contact">HIRE ME</button>
                     </AnchorLink>
@@ -20,9 +20,9 @@ const Header = () => {
                 </div>
                 <div className="header-mobile">
                     <div className="header-mobile-info">
-                        <h1>Frontend</h1>
+                        <h1>Full Stack</h1>
                         <h1>Developer.</h1>
-                        <p>Hi, I'm Pantakan Rungwannarat I love turning ideas into interactive digital experiences and I'm always eager to learn and grow through new challenges.</p>
+                        <p>Hi, I'm Pantakan Rungwannarat, a Fullstack Developer skilled in both frontend and backend development. I enjoy creating responsive, efficient web applications that bring ideas to life as seamless digital experiences.</p>
                     </div>
                     <div className="header-mobile-image">
                         <img src={assets.Me} alt="" />

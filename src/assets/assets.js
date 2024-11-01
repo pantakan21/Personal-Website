@@ -19,6 +19,10 @@ import Incomming from "./Incomming.png";
 import GameForAutism from "./GameForAutism.png";
 import CSharp from "./CSharp.png";
 import Unity from "./Unity.png";
+import Nodejs from "./Nodejs.png";
+import TypeScript from "./TypeScript.png";
+import Github from "./Github.png";
+import Facebook from "./Facebook.png";
 
 export const assets = {
     Bootstrap,
@@ -41,5 +45,9 @@ export const assets = {
     Incomming,
     GameForAutism,
     CSharp,
-    Unity
+    Unity,
+    Nodejs,
+    TypeScript,
+    Facebook,
+    Github
 };

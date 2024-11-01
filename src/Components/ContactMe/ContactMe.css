@@ -50,6 +50,18 @@
     margin-right: 1vw;
 }
 
+.contact-info-link-group {
+    display: flex;
+}
+
+.contact-info-link img {
+    margin-top: 5px;
+    width: 3vw;
+    height: auto;
+    margin-right: 1vw;
+    transition: 0.3s;
+}
+
 .contact-right {
     width: 45%;
     display: flex;
@@ -109,6 +121,12 @@
     background-position: left;
 }
 
+.contact-info-link img:hover {
+    transform: scale(1.2);
+    color: #ffffff;
+    background-position: left;
+}
+
 @media(max-width: 992px) {
     .contact-container {
         flex-direction: column;
@@ -141,6 +159,10 @@
         margin-right: 1vw;
     }
     
+    .contact-info-link img {
+        width: 4vw;
+    }
+
     .contact-right label {
         font-size: 2vw;
     }
@@ -184,7 +206,11 @@
     .contact-left p {
         font-size: 2.5vw;
     }
- 
+
+    .contact-info-link img {
+        width: 4.5vw;
+    }
+
     .contact-right label {
         font-size: 2.3vw;
     }
@@ -228,6 +254,10 @@
  
     .contact-right label {
         font-size: 2.7vw;
+    }
+
+    .contact-info-link img {
+        width: 6vw;
     }
 
     .contact-right input {

@@ -46,6 +46,14 @@ const ContactMe = () => {
                         <img src={assets.Location_icon} alt="" />
                         <p>Bangkok, Thailand</p>
                     </div>
+                    <div className='contact-info-link-group'>
+                        <div className="contact-info-link">
+                        <a href="https://github.com/pantakan21" target='_blank'><img src={assets.Github} alt="" /></a>
+                        </div>
+                        <div className="contact-info-link">
+                            <a href="https://www.facebook.com/profile.php?id=100002601415319" target='_blank'><img src={assets.Facebook} alt="" /></a>
+                        </div>
+                    </div>
                 </div>
                 <form onSubmit={onSubmit} className="contact-right">
                     <label>Your Name</label>
