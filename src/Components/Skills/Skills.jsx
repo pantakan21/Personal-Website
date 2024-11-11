@@ -63,6 +63,10 @@ const Skills = () => {
                         <img src={assets.Figma} alt="" />
                         <p>Figma</p>
                     </div>
+                    <div className="images-container">
+                        <img src={assets.Postman} alt="" />
+                        <p>Postman</p>
+                    </div>
                 </div> 
             </div>
         </div>

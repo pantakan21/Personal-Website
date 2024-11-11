@@ -23,6 +23,7 @@ import Nodejs from "./Nodejs.png";
 import TypeScript from "./TypeScript.png";
 import Github from "./Github.png";
 import Facebook from "./Facebook.png";
+import Postman from "./Postman.jpg";
 
 export const assets = {
     Bootstrap,
@@ -49,5 +50,6 @@ export const assets = {
     Nodejs,
     TypeScript,
     Facebook,
-    Github
+    Github,
+    Postman
 };
