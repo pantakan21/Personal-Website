@@ -1,3 +1,3 @@
 # Personal Website
 
-This project is a full-stack Todo List application, showcasing my skills in both frontend and backend development. It includes complete CRUD functionality (Create, Read, Update, Delete) for managing tasks, built with a modern tech stack.
+This project is a fully designed and developed personal portfolio website, built to showcase my skills, projects, and experience in frontend development. It demonstrates my expertise in modern web technologies and user-friendly, responsive design.
